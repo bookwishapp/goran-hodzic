@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node migrate.js && next start",
+    "start:prod": "npm run migrate && npm run start",
     "migrate": "node migrate.js",
     "import:subscribers": "node scripts/import-subscribers.js",
     "import:subscribers:batch": "node scripts/import-subscribers-batch.js",
