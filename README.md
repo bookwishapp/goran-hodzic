@@ -4,7 +4,7 @@ A minimal Next.js website for showcasing art works and exhibitions by Goran Hodz
 
 ## Features
 
-- Public portfolio at goranhodzic.art
+- Public portfolio at goranhodzic.com
 - Admin panel for managing works and content
 - Newsletter functionality for art updates (optional - requires AWS SES)
 - Payment support via Stripe for art sales
@@ -51,7 +51,7 @@ SES_SMTP_PASS=
 SES_FROM_EMAIL=
 
 # Application
-NEXT_PUBLIC_SITE_URL=https://goranhodzic.art
+NEXT_PUBLIC_SITE_URL=https://goranhodzic.com
 ```
 
 ## Development
