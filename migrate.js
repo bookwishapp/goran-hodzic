@@ -2,6 +2,11 @@ const { Pool } = require('pg');
 const fs = require('fs');
 const path = require('path');
 
+// Load environment variables in development
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
 });

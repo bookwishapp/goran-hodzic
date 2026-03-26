@@ -18,6 +18,7 @@
     "@tiptap/starter-kit": "^2.4.0",
     "autoprefixer": "^10.4.27",
     "cookie": "^0.6.0",
+    "dotenv": "^17.3.1",
     "next": "^14.2.35",
     "nodemailer": "^6.9.13",
     "pg": "^8.12.0",
